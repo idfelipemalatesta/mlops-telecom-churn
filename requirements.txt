@@ -8,7 +8,6 @@ scipy
 scikit-learn
 imblearn
 xgboost
-lightgbm
 from_root
 evidently==0.2.8
 dill
