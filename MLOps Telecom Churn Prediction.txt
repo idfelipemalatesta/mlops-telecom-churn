@@ -1,0 +1,83 @@
+MLOps Telecom Churn Prediction
+
+01. Construir o arquivo template.py - arquivo que contém os diretorios do projeto
+02. Executar o arquivo template.py para a construção das pastas - python template.py no terminal
+03. Criar o ambiente virtual p/ o desenvolvimento: conda create -n telecom-churn python=3.10
+04. Preencher o arquivo requirements.txt
+05. Preencher o arquivo pyproject.toml
+06. Executar o pip install -r requirements.txt
+07. Executar o pip install -e .
+08. Preencher o arquivo de logging
+09. Preencher o arquivo de exception
+10. Preencher o arquivo main_utils.py
+11. Desenvolver a Análise Exploratória e a Modelagem no Jupyter Notebook
+
+12. Preecher o arquivo constant/__init__.py. Arquivo onde armazena as constantes, como: banco de dados, string de conexão, caminhos de diretorios para armazenamento dos arquivos, etc...
+13. Preencher o arquivo entity/config_entity.py
+14. Preencher o arquivo entity/artifact_entity.py
+15. Preencher o arquivo configuration/mongo_db_connection.py
+16. Preencher o arquivo data_access/telecom_data.py -> É realizado a conversão do JSON para DataFrame
+17. Desenvolver o arquivo data_ingestion
+18. Desenvolver o arquivo pipeline/training_pipeline.py
+
+19. Preecher o arquivo constant/__init__.py
+20. Preecher o arquivo config/schema.yaml
+21. Preencher o arquivo entity/config_entity.py
+22. Preencher o arquivo entity/artifact_entity.py
+23. Desenvolver o arquivo data_validation
+24. Desenvolver o arquivo pipeline/training_pipeline.py
+
+25. Preecher o arquivo constant/__init__.py
+26. Preencher o arquivo entity/config_entity.py
+27. Preencher o arquivo entity/artifact_entity.py
+28. Desenvolver o arquivo data_transformation
+29. Desenvolver o arquivo pipeline/training_pipeline.py
+
+30. Preecher o arquivo constant/__init__.py
+31. Preecher o arquivo config/model.yaml
+32. Preencher o arquivo entity/config_entity.py
+33. Preencher o arquivo entity/artifact_entity.py
+34. Desenvolver o arquivo model_trainer
+35. Desenvolver o arquivo pipeline/training_pipeline.py
+
+30. Preecher o arquivo constant/__init__.py
+31. Criar o bucket na AWS
+32. Criar um usuario
+33. Adicionar as credenciais nas variaveis de ambiente do windows
+34. Criar e preencher o arquivo configuration/aws_connection.py
+35. Criar e preencher o arquivo cloud_storage/aws_storage.py
+36. Criar o arquivo entity/s3_estimator.py
+34. Desenvolver o arquivo model_evaluation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

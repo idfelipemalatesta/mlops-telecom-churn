@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telecom_churn_predction"  
+version = "1.0.0"
+description = "Telecom Churn Prediction"
+authors = [{ name = "Felipe", email = "idfelipemalatesta@gmail.com" }]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+dependencies = [
+    "ipykernel",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "scikit-learn",
+    "imblearn",
+    "xgboost",
+    "lightgbm",
+    "from_root",
+    "evidently",
+    "dill",
+    "PyYAML",
+    "neuro_mf",
+    "boto3",
+    "mypy-boto3-s3",
+    "botocore",
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "python-multipart"
+]
+
+[tool.setuptools]
+packages = ["telecom_churn"]
+
+[tool.black]
+line-length = 88  
+target-version = ["py36"]
